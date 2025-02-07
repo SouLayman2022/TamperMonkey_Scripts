@@ -41,3 +41,58 @@ Each script targets a specific task and is fully commented for clarity. The scri
 2. **Clone or Download the Repository:**  
    ```bash
    git clone https://github.com/SouLayman2022/TamperMonkey_Scripts.git
+
+## Alternatively, you can download the ZIP file from GitHub.
+
+### Load a Script in TamperMonkey:
+- Open the TamperMonkey dashboard.
+- Click on **"Create a new script"** or **"Add a new script."**
+- Copy the content of the desired script file (e.g., `UTube_unsubscriber_bulk.js`) from this repository and paste it into the editor.
+- Save the script.
+- Ensure the script is enabled.
+
+---
+
+### Usage
+
+**Navigate to the Target Page:**  
+For example, if using the YouTube unsubscriber script, open **YouTube Subscriptions** and scroll to the bottom to load all channels.
+
+**Script Execution:**  
+The script automatically runs on page load if the URL matches the pattern defined in its metadata (the `@match` field).  
+Check your browser’s Developer Console (F12 → Console) for progress logs and any potential warnings.
+
+---
+
+### Scripts Included
+
+- **UTube_unsubscriber_bulk.js**  
+  Automatically unsubscribes from all channels on your YouTube subscriptions page.
+
+- **Utube_comments_Bulk_delete.js**  
+  Deletes multiple YouTube comments in bulk.
+
+*More scripts can be added here as you expand the repository.*
+
+---
+
+### Contributing
+
+Contributions are welcome! If you have a useful TamperMonkey script or improvements for an existing one, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes with clear messages.
+4. Open a pull request explaining your changes.
+
+---
+
+### License
+
+This project is licensed under the [GPL-3.0 License](LICENSE).
+
+---
+
+### Support
+
+If you encounter any issues or have any questions, please open an issue in this repository or contact the maintainer.
+
