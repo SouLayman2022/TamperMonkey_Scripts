@@ -94,5 +94,5 @@ This project is licensed under the [GPL-3.0 License](LICENSE).
 
 ### Support
 
-If you encounter any issues or have any questions, please open an issue in this repository or contact the maintainer.
+Well! there's no support, if the scripts don't works, i will try to update, i promise 😉
 
